@@ -1,0 +1,36 @@
+
+body {
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color:rgb(241, 241, 241);
+}
+
+h2 {
+    font-family:"Verdana", sans-serif;
+}
+
+.header {
+    background-color: rgb(1, 110, 110);
+    color: aliceblue;
+    padding: 1px 15px;
+    border-style: inset;
+    border-width: 0px 0px 2px 0px;
+    box-shadow: inset 0 -6px 6px -6px black;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+}
+
+div p {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
