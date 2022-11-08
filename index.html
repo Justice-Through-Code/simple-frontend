@@ -12,13 +12,14 @@
 
     <title>API Frontend</title>
 </head>
-<body>
+<body onload="get_hello()"">
     <div class="flex-container">
         <div class="header">
             <h2>Simple API Frontend</h2>
         </div>
     
         <div class="text">
+            <p id="text-result"><!--This paragraph will be populated with text via javascript--></p>
             <p>Welcome! This page is meant to be used as a tester for a simple API.</p>
             <p>Enter a number below, and that number squared (multiplied by itself) will be returned to you.</p>
         </div>
