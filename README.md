@@ -9,7 +9,7 @@ Currently, this repo is expecting an API response from the url
 
 This is your 'localhost' (a web server running locally, on the same computer that you're sending the request from), `http://127.0.0.1:8000`, at the route `square/<number>`, where the user enters a number and it is sent in the request. Your web server must be _on_ in order for this frontend to receive a response.
 
-This url can be updated to send a request to any other API instead on `line 12` of file `index.js`.
+This url can be updated to send a request to any other API instead on `line 1` of file `index.js` (note that you'll also have to edit any lines that use this variable as well).
 
 
 ## How to Use
